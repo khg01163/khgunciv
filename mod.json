@@ -1,0 +1,6 @@
+{
+  "name": "My Custom Units",
+  "description": "Adds a new unit called SuperWarrior.",
+  "version": "1.0",
+  "minGameVersion": "4.6.0"
+}
