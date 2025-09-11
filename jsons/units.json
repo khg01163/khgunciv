@@ -16,8 +16,7 @@
     "rangedStrength": 65
   },
   "AntiAirGun": {
-    "range": 4,
-    "antiAirStrength": 250
+    "range": 4
   },
   "MachineGun": {
     "range": 2,
