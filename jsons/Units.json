@@ -1115,7 +1115,7 @@
 		"movement": 2,
 		"strength": 65,
 		"rangedStrength": 90,
-		"range": 5,
+		"range": 6,
 		"cost": 550,
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
@@ -1197,7 +1197,7 @@
 	{
 		"name": "Infantry",
 		"unitType": "Gunpowder",
-		"movement": 2,
+		"movement": 3,
 		"strength": 80,
 		"cost": 190,
 		"requiredTech": "Plastics",
@@ -1232,7 +1232,7 @@
 	{
 		"name": "Machine Gun",
 		"unitType": "Ranged Gunpowder",
-		"range": 2,
+		"range": 3,
 		"movement": 2,
 		"strength": 50,
 		"rangedStrength": 80,
@@ -1370,12 +1370,12 @@
 		"name": "Tank",
 		"unitType": "Armored",
 		"movement": 5,
-		"strength": 150,
+		"strength": 120,
 		"cost": 650,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Iron",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+1000]% Strength <vs [Gunpowder] units> <when defending>", "[+1000]% Strength <vs [Ranged Gunpowder] units> <when defending>", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1397,13 +1397,13 @@
 		"name": "Anti-Tank Gun",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
-		"range": 2,
+		"range": 3,
 		"strength": 200,
 		"rangedStrength": 200,
 		"cost": 350,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["[+50]% Strength <vs [Armored] units> <when attacking>", "[-70]% Strength <vs [Gunpowder] units> <when defending>", "[-70]% Strength <vs [Ranged Gunpowder] units> <when defending>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+120]% Strength <vs [Armored] units> <when attacking>", "[-70]% Strength <vs [Gunpowder] units> <when defending>", "[-70]% Strength <vs [Ranged Gunpowder] units> <when defending>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 	{
