@@ -1203,7 +1203,7 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
-		"attackSound": "shot"
+		"attackSound": "shot",
 		"uniques": "[+200]% Strength <vs [Armored] units> <when defending>", "[+200]% Strength <vs [Ranged Gunpowder] units> <when defending>"
 	},
 	{
@@ -1240,7 +1240,7 @@
 		"cost": 220,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mechanized Infantry",
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
 		"uniques": "[+200]% Strength <vs [Gunpowder] units> <when attacking>"
 		// Upgrades to Bazooka in BNW
 	},
