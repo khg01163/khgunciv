@@ -1204,7 +1204,7 @@
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
-		"uniques": "[+200]% Strength <vs [Armored] units> <when defending>"
+		"uniques": "[+200]% Strength <vs [Armored] units> <when defending>", "[+200]% Strength <vs [Machine Gun] units> <when defending>"
 	},
 	{
 		"name": "Carrier",
